@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name                  = "memory_dictionary"
   s.version               = MemoryDictionary::Version::STRING
   s.platform              = Gem::Platform::RUBY
-  s.required_ruby_version = ">= 2.0.0"
+  s.required_ruby_version = ">= 2.1.0"
   s.authors               = ["Lucas Martins"]
   s.email                 = ["lucasmartins@railsnapraia.com"]
   s.homepage              = "http://rubygems.org/gems/memory_dictionary"
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  
+
   if RUBY_ENGINE=='rbx'
     s.add_dependency 'rubysl'
   end
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'yajl-ruby'
   end
 
-  s.add_dependency 'mongoid'
+  s.add_dependency 'mongoid', '~> 5.1'
 
   s.add_development_dependency "rspec"
   s.add_development_dependency "rspec-mocks"
@@ -38,4 +38,3 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pry-nav"
   s.add_development_dependency "yard"
 end
-

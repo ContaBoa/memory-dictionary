@@ -15,17 +15,17 @@ You can:
 
 Or just add it to your Gemfile
 ```ruby
-  gem 'memory_dictionary'
+  gem 'memory_dictionary', '~> 1.0'
 ```
 
 Use
 ===
 
-Check the [specs](https://github.com/leghoo/memory_dictionary/tree/master/spec)
+Check the [specs](https://github.com/ContaBoa/memory_dictionary/tree/master/spec)
 
 Docs
 ====
-You should check the [factories](https://github.com/leghoo/memory_dictionary/tree/master/spec/factories) to learn what you need to build your objects, and the [tests](https://github.com/leghoo/memory_dictionary/tree/master/spec/MemoryDictionary) to learn how to use them. But hey, we have docs [right here](http://rdoc.info/github/leghoo/memory_dictionary/master/frames).
+You should check the [factories](https://github.com/ContaBoa/memory_dictionary/tree/master/spec/factories) to learn what you need to build your objects, and the [tests](https://github.com/ContaBoa/memory_dictionary/tree/master/spec/MemoryDictionary) to learn how to use them. But hey, we have docs [right here](http://rdoc.info/github/ContaBoa/memory_dictionary/master/frames).
 
 Roadmap
 =======
@@ -38,12 +38,12 @@ Roadmap
 Contribute
 ==========
 
-Just fork [MemoryDictionary](https://github.com/leghoo/memory_dictionary), add your feature+spec, and make a pull request. **DO NOT** mess up with the version file though.
-  
+Just fork [MemoryDictionary](https://github.com/ContaBoa/memory_dictionary), add your feature+spec, and make a pull request. **DO NOT** mess up with the version file though.
+
 Support
 =======
 
-This is an opensource project so don't expect premium support, but don't be shy, post any troubles you're having in the [Issues](https://github.com/leghoo/memory_dictionary/issues) page and we'll do what we can to help.
+This is an opensource project so don't expect premium support, but don't be shy, post any troubles you're having in the [Issues](https://github.com/ContaBoa/memory_dictionary/issues) page and we'll do what we can to help.
 
 License
 =======
