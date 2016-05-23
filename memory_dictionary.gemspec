@@ -28,13 +28,13 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'mongoid', '~> 5.1'
 
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "rspec-mocks"
-  s.add_development_dependency "rspec-expectations"
-  s.add_development_dependency "database_cleaner"
-  s.add_development_dependency "factory_girl"
-  s.add_development_dependency "rake"
-  s.add_development_dependency "pry"
-  s.add_development_dependency "pry-nav"
-  s.add_development_dependency "yard"
+  s.add_development_dependency "rspec", "~> 2.1"
+  s.add_development_dependency "rspec-mocks", "~> 2.1"
+  s.add_development_dependency "rspec-expectations", "~> 2.1"
+  s.add_development_dependency "database_cleaner", '~> 0'
+  s.add_development_dependency "factory_girl", '~> 0'
+  s.add_development_dependency "rake", '~> 0'
+  s.add_development_dependency "pry", '~> 0'
+  s.add_development_dependency "pry-nav", '~> 0'
+  s.add_development_dependency "yard", '~> 0'
 end

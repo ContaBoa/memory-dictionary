@@ -8,3 +8,4 @@ Gemfile.lock
 *.DS_Store
 .bundle/
 gem_graph.png
+*.gem

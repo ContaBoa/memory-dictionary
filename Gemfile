@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'mongoid', github: 'mongoid/mongoid'
+gem 'mongoid', '~> 5.1'
 gem 'rubysl', platform: :rbx
 gem 'yajl-ruby', :platforms=>[:rbx,:ruby]
 
